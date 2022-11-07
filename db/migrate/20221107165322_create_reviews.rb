@@ -8,3 +8,11 @@ class CreateReviews < ActiveRecord::Migration[6.1]
     end
   end
 end
+
+
+
+
+
+
+# rake db:create_migration NAME=create_reviews
+# bundle exec rake db:migrate
